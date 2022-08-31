@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #141517;
+    scroll-behavior: smooth;
+    
+}
+
+.custom-bg {
+
+    @apply bg-radial-at-b from-[#58598E] to-red-400  animate-text ;
+ }
+
+ .font-uno {
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .font-dos {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .font-tres {
+    font-family: 'DynaPuff', cursive;
+  }

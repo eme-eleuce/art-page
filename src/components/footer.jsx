@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
   
       <p className="mt-12 text-sm text-center text-gray-400 lg:text-right">
-        Copyright &copy; 2022. All rights reserved.
+         &copy; 2022
       </p>
     </div>
   </div>
